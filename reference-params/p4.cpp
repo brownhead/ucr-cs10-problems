@@ -15,6 +15,8 @@ void bar(int a, int b) {
 int main() {
     int x = 1, y = 2;
 
+    bar(x, y);
+
     cout << x << y << endl;
 
     return 0;
